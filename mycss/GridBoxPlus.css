@@ -1,0 +1,55 @@
+.toster-position {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  background-color: rgb(247, 41, 41);
+  color: whitesmoke;
+}
+
+/* ........................... */
+.card-img-height-fix {
+  height: fit-content;
+}
+
+.card-img-width-fix {
+  width: fit-content;
+}
+
+.max-Width {
+  max-width: 90%;
+  margin: auto;
+}
+
+.image-height {
+  height: 18vw;
+}
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .image-height {
+    height: 20vw;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .image-height {
+    height: 30vw;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .image-height {
+    height: 40vw;
+  }
+}
+@media screen and (max-width: 769px) {
+  .image-height {
+    height: 55vw;
+  }
+}
+
+.Side-Nav-Button {
+  text-decoration: none;
+  /* background-color: darkorange; */
+  padding: 15px 142px;
+
+  color: black;
+  font-size: x-large;
+}

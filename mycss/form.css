@@ -1,19 +1,19 @@
-.form-body{
-    border: 1px solid black;
-    width: 70%;
-    /* height: 100%; */
-    margin: auto;
-    background-color: rgb(243, 152, 6);
-    padding: 20px;
+.form-body {
+  border: 1px solid black;
+  width: 70%;
+  /* height: 100%; */
+  margin: auto;
+  background-color: rgb(243, 152, 6);
+  padding: 20px;
 }
 
-#child-max-width{
-    max-width: 100%;
+#child-max-width {
+  max-width: 100%;
 }
 
-.color-white{
-    color: whitesmoke;
+.color-white {
+  color: whitesmoke;
 }
-.color-dark{
-    color: black;
+.color-dark {
+  color: black;
 }
