@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="mb-3 form-control-lg">
+      <label for="exampleFormControlInput1" class="form-label"
+        >Email address</label
+      >
+      <input
+        type="email"
+        class="form-control"
+        id="exampleFormControlInput1"
+        placeholder="name@example.com"
+      />
+    </div>
+    <div class="mb-3 form-control-lg">
+      <label for="exampleFormControlTextarea1" class="form-label"
+        >Example textarea</label
+      >
+      <textarea
+        class="form-control"
+        id="exampleFormControlTextarea1"
+        rows="3"
+      ></textarea>
+    </div>
+
+    <input
+      class="form-control"
+      type="text"
+      placeholder="Disabled input"
+      aria-label="Disabled input example"
+      disabled
+    />
+    <input
+      class="form-control"
+      type="text"
+      value="Disabled readonly input"
+      aria-label="Disabled input example"
+      disabled
+      readonly
+    />
+
+    <input
+      type="radio"
+      class="btn-check"
+      name="options-outlined"
+      id="success-outlined"
+      autocomplete="off"
+      checked
+    />
+    <label class="btn btn-outline-success" for="success-outlined"
+      >Checked success radio</label
+    >
+
+    <input
+      type="radio"
+      class="btn-check"
+      name="options-outlined"
+      id="danger-outlined"
+      autocomplete="off"
+    />
+    <label class="btn btn-outline-danger" for="danger-outlined"
+      >Danger radio</label
+    >
+
+    <label for="customRange1" class="form-label">Example range</label>
+    <input type="range" class="form-range" id="customRange1" />
+
+    <div class="form-floating mb-3">
+      <input
+        type="email"
+        class="form-control"
+        id="floatingInput"
+        placeholder="name@example.com"
+      />
+      <label for="floatingInput">Email address</label>
+    </div>
+    <div class="form-floating mb-3">
+      <input
+        type="password"
+        class="form-control"
+        id="floatingPassword"
+        placeholder="Password"
+      />
+      <label for="floatingPassword">Password</label>
+    </div>
+    <div class="form-floating">
+      <input
+        type="password"
+        class="form-control"
+        id="floatingPassword"
+        placeholder="Password"
+      />
+      <label for="floatingPassword">Password</label>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
