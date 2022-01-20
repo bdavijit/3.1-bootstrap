@@ -53,3 +53,11 @@
   color: black;
   font-size: x-large;
 }
+
+.button-hover:active > .spinner-border {
+  display: inline-block;
+}
+
+.spinner-border {
+  display: none;
+}
